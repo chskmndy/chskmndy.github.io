@@ -109,6 +109,28 @@ hr {
     background-color: rgba(200, 200, 200, 0.5);
     margin: 20px auto;
 }
+.bread-basket-title {
+    font-family: 'Times New Roman', serif;
+    font-size: 19px;
+    text-align: left;
+    margin-bottom: 5px;
+}
+.bread-basket-description {
+    color: rgb(115, 114, 114);
+    font-size: 15px;
+    margin-top: 10px;
+}
+.menu-title {
+    font-family: 'Times New Roman', serif;
+    font-size: 19px;
+    text-align: left;
+    margin-bottom: 5px;
+}
+.menu-description {
+    color: rgb(115, 114, 114);
+    font-size: 15px;
+    margin-top: 10px; /* Adding px to ensure proper rendering */
+}
 .third-image {
     opacity: 0.75;
 }
