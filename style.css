@@ -109,17 +109,6 @@ hr {
     background-color: rgba(200, 200, 200, 0.5);
     margin: 20px auto;
 }
-.bread-basket-title {
-    font-family: 'Times New Roman', serif;
-    font-size: 19px;
-    text-align: left;
-    margin-bottom: 5px;
-}
-.bread-basket-description {
-    color: rgb(115, 114, 114);
-    font-size: 15px;
-    margin-top: 10px;
-}
 .menu-title {
     font-family: 'Times New Roman', serif;
     font-size: 19px;
@@ -129,8 +118,58 @@ hr {
 .menu-description {
     color: rgb(115, 114, 114);
     font-size: 15px;
-    margin-top: 10px; /* Adding px to ensure proper rendering */
+    margin-top: 10px;
 }
 .third-image {
     opacity: 0.75;
+}
+.custom-hr {
+    width: 75%;
+    border: none;
+    height: 1px;
+    background-color: rgba(200, 200, 200, 0.5);
+    margin: 20px auto;
+}
+.contact-section {
+    margin: 20px 0 20px 10px;
+    max-width: 520px;
+    text-align: left;
+}
+.contact-title {
+    margin: 0;
+}
+.contact-description {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    margin: 10px 0 0;
+    width: 1500px;
+    padding-left: 177px;
+}
+.contact-address {
+    margin: 0;
+    padding-left: 177px;
+    white-space: nowrap;
+}
+.contact-name {
+    color: rgb(131, 131, 131);
+    font-size: 15px;
+    margin: 10px 0 0;
+    width: 1500px;
+    padding-left: 182px;
+}
+.contact-input {
+    flex-grow: 1;
+    border: none;
+    margin: 10px 0 0;
+    border-bottom: 1px solid rgba(200, 200, 200, 0.5);
+    outline: none;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: 0 2px 5px rgba(251, 251, 251, 0.12);
+    transition: border-bottom 0.3s;
+}
+.contact-input.input-focus {
+    border-bottom: 2px solid rgba(100, 100, 100, 0.7);
 }

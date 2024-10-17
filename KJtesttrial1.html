@@ -44,8 +44,8 @@
         <div class="text-box" style="margin-right: 20px; text-align: left;">
             <h1>Our Menu</h1>
             <!--TODO: MOVE ALL THE inline style in all HTML ELEMENT TO CSS FILE. THEN JUST CALL THE CLASSNAME-->
-            <h2 class="tradition bread-basket-title">Bread Basket</h2>
-            <p class="bread-basket-description">Assortment of fresh baked fruit breads and muffins 5.50</p>
+            <h2 class="tradition menu-title">Bread Basket</h2>
+            <p class="menu-description">Assortment of fresh baked fruit breads and muffins 5.50</p>
             <br>
             <h2 class="tradition menu-title">Honey Almond Granola with Fruits</h2>
             <p class="menu-description">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
@@ -63,41 +63,28 @@
         <img src="menu.jpg" alt="Third Image" class="medium-image third-image"> 
     </div>
     
-    <hr style="width: 75%; border: none; height: 1px; background-color: rgba(200, 200, 200, 0.5); margin: 20px auto;">
+    <hr class="custom-hr">
 
-    <div class="text-box" style="margin: 20px 0 20px 10px; max-width: 520px; text-align: left;">
-        <h1 style="margin: 0;">Contact</h1>
-        <br>
-        <p style="color: rgb(0, 0, 0); font-size: 15px; margin: 10px 0 0; width: 1500px; padding-left: 177px;">
-            We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggest criteria of them all, both look and taste.
-        </p>
-        <p style="color: rgb(0, 0, 0); font-size: 15px; margin: 0; padding-left: 177px;">
-            Do not hesitate to contact us.
-        </p>
-        <br>
-        <p class="w3-text-blue-grey w3-large" style="margin: 0; padding-left: 177px; white-space: nowrap;">
-            <b>Catering Service, 42nd Living St, 43043 New York, NY</b>
-        </p>
-        <br>
-        <p style="color: rgb(0, 0, 0); font-size: 15px; margin: 10px 0 0; width: 1500px; padding-left: 177px;">
-            You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:
-        </p>
-        <br>
-        <p style="color: rgb(131, 131, 131); font-size: 15px; margin: 10px 0 0; width: 1500px; padding-left: 182px;">Name
-        </p>
-        <input type="text" 
-        style="flex-grow: 1; 
-               border: none; 
-               margin: 10px 0 0; 
-               border-bottom: 1px solid rgba(200, 200, 200, 0.5); 
-               outline: none; 
-               font-size: 15px; 
-               color: rgb(0, 0, 0); 
-               padding: 8px;
-               background-color: rgba(255, 255, 255, 0);
-               box-shadow: 0 2px 5px rgba(251, 251, 251, 0.12);
-               transition: border-bottom 0.3s;" 
-        onfocus="this.style.borderBottom='2px solid rgba(100, 100, 100, 0.7)';" 
-        onblur="this.style.borderBottom='2px solid rgba(200, 200, 200, 0.5)';">
+<div class="text-box contact-section">
+    <h1 class="contact-title">Contact</h1>
+    <br>
+    <p class="contact-description">
+        We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggest criteria of them all, both look and taste.
+    </p>
+    <p class="contact-description">
+        Do not hesitate to contact us.
+    </p>
+    <br>
+    <p class="w3-text-blue-grey w3-large contact-address">
+        <b>Catering Service, 42nd Living St, 43043 New York, NY</b>
+    </p>
+    <br>
+    <p class="contact-description">
+        You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:
+    </p>
+    <br>
+    <p class="contact-name">Name</p>
+    <input type="text" class="contact-input" onfocus="this.classList.add('input-focus')" onblur="this.classList.remove('input-focus')">
+</div>
 </body>
 </html>
