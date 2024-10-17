@@ -60,7 +60,7 @@
             width: 40%; 
             max-width: 500px; 
             z-index: 1; 
-            opacity: 0.75; 
+            opacity: 0.95; 
         }
         .flex-container {
             display: flex; 
@@ -117,6 +117,13 @@
             background-color: rgba(200, 200, 200, 0.5);
             margin: 20px auto;
         }
+        .third-image {
+            opacity: 0.95;
+            transition: transform 0.3s ease;
+        }
+        .third-image:hover {
+            transform: scale(1.05);
+        }
     </style>
 </head>
 <body>
@@ -124,7 +131,7 @@
     <div class="w3-top">
         <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
             <div class="w3-left">
-                <a href="https://www.w3schools.com/w3css/tryw3css_templates_gourmet_catering.htm#home" class="w3-bar-item w3-button">Gourmet au Catering</a>
+                <a href="https://www.w3schools.com/w3css/tryw3css_templates_gourmet_catering.htm#home" class="w3-bar-item w3-button">Bake with Cee</a>
             </div>
             <div class="w3-right w3-hide-small">
                 <a href="https://www.w3schools.com/w3css/tryw3css_templates_gourmet_catering.htm#about" class="w3-bar-item w3-button">About</a> 
@@ -136,17 +143,17 @@
 
     <div class="background-container">
         <img src="file:///Users/cheskaamandyevangelista/Desktop/hamburger.jpg" alt="Background Image" class="background">
-        <div class="heading">Le Catering</div>
+        <div class="heading">Bake with Cee</div>
     </div>
 
     <div class="flex-container">
-        <img src="file:///Users/cheskaamandyevangelista/Desktop/tablesetting2.jpg" alt="Medium Image" class="medium-image">
+        <img src="file:///Users/cheskaamandyevangelista/Desktop/Lasagna.jpg" alt="Medium Image" class="medium-image">
         
         <div class="text-box">
-            <h1>About Catering</h1>
-            <p class="tradition">Tradition since 1889</p>
-            <p>The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. We only use <span class="highlight">seasonal</span> ingredients.</p>
-            <p class="dark-gray">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <h1>Our Signature Dish</h1>
+            <p class="tradition" style="font-size: 30px;">Lasagna</p>
+            <p>Welcome to Bake with Cee, where we bake love into every dish! Our signature lasagna is crafted with layers of fresh pasta, a rich and savory tomato sauce, creamy béchamel, and a blend of premium cheeses that melt perfectly with every bite. Made with classic beef, each lasagna is prepared to satisfy your cravings. Crafted using only <span class="highlight">fresh,</span>  high-quality ingredients, each bite is designed to satisfy your cravings. </p>
+            <p class="dark-gray">At Bake with Cee, we believe that great food brings people together—so why not start with a slice of our hearty, delicious lasagna today?</p>
         </div>
     </div>
 
@@ -155,22 +162,22 @@
     <div style="display: flex; justify-content: flex-end; margin-top: 20px; margin-right: 185px;">
         <div class="text-box" style="margin-right: 20px; text-align: left;">
             <h1>Our Menu</h1>
-            <h3 class="tradition" style="font-family: 'Times New Roman', serif; text-align: left; margin-bottom: 5px;">Bread Basket</h3>
+            <h2 class="tradition" style="font-family: 'Times New Roman', serif; font-size: 19px; text-align: left; margin-bottom: 5px;">Bread Basket</h2>
             <p style="color: rgb(115, 114, 114); font-size: 15px; margin-top: 10;">Assortment of fresh baked fruit breads and muffins 5.50</p>
             <br>
-            <h3 class="tradition" style="font-family: 'Times New Roman', serif; text-align: left; margin-bottom: 5px;">Honey Almond Granola with Fruits</h3>
+            <h2 class="tradition" style="font-family: 'Times New Roman', serif; font-size: 19px; text-align: left; margin-bottom: 5px;">Honey Almond Granola with Fruits</h2>
             <p style="color: rgb(115, 114, 114); font-size: 15px; margin-top: 10;">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
             <br>
-            <h3 class="tradition" style="font-family: 'Times New Roman', serif; text-align: left; margin-bottom: 5px;">Belgian Waffle</h3>
+            <h2 class="tradition" style="font-family: 'Times New Roman', serif; font-size: 19px; text-align: left; margin-bottom: 5px;">Belgian Waffle</h2>
             <p style="color: rgb(115, 114, 114); font-size: 15px; margin-top: 10;">Vanilla flavored batter with malted flour 7.50</p>
             <br>
-            <h3 class="tradition" style="font-family: 'Times New Roman', serif; text-align: left; margin-bottom: 5px;">Scrambled eggs</h3>
+            <h2 class="tradition" style="font-family: 'Times New Roman', serif; font-size: 19px; text-align: left; margin-bottom: 5px;">Scrambled eggs</h2>
             <p style="color: rgb(115, 114, 114); font-size: 15px; margin-top: 10;">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p>
             <br>
-            <h3 class="tradition" style="font-family: 'Times New Roman', serif; text-align: left; margin-bottom: 5px;">Blueberry Pancakes</h3>
+            <h2 class="tradition" style="font-family: 'Times New Roman', serif; font-size: 19px; text-align: left; margin-bottom: 5px;">Blueberry Pancakes</h2>
             <p style="color: rgb(115, 114, 114); font-size: 15px; margin-top: 10;">With syrup, butter and lots of berries 8.50</p>
         </div>
-        <img src="file:///Users/cheskaamandyevangelista/Desktop/menu.jpg" alt="Third Image" class="medium-image"> 
+        <img src="file:///Users/cheskaamandyevangelista/Desktop/brownies.jpg" alt="Third Image" class="medium-image third-image"> 
     </div>
     
     <hr style="width: 75%; border: none; height: 1px; background-color: rgba(200, 200, 200, 0.5); margin: 20px auto;">
@@ -192,6 +199,22 @@
         <p style="color: rgb(0, 0, 0); font-size: 15px; margin: 10px 0 0; width: 1500px; padding-left: 177px;">
             You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:
         </p>
-    </div>
+        <br>
+        <p style="color: rgb(131, 131, 131); font-size: 15px; margin: 10px 0 0; width: 1500px; padding-left: 182px;">Name
+        </p>
+        <input type="text" 
+        style="flex-grow: 1; 
+               border: none; 
+               margin: 10px 0 0; 
+               border-bottom: 1px solid rgba(200, 200, 200, 0.5); 
+               outline: none; 
+               font-size: 15px; 
+               color: rgb(0, 0, 0); 
+               padding: 8px;
+               background-color: rgba(255, 255, 255, 0);
+               box-shadow: 0 2px 5px rgba(251, 251, 251, 0.12);
+               transition: border-bottom 0.3s;" 
+        onfocus="this.style.borderBottom='2px solid rgba(100, 100, 100, 0.7)';" 
+        onblur="this.style.borderBottom='2px solid rgba(200, 200, 200, 0.5)';">
 </body>
 </html>
