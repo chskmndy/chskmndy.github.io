@@ -173,3 +173,24 @@ hr {
 .contact-input.input-focus {
     border-bottom: 2px solid rgba(100, 100, 100, 0.7);
 }
+.text-container span{
+    color:red;
+}
+.text-container h1{
+    color:blue;
+}
+.table{
+    color:black;
+}
+.table td{
+    text-align: left;
+}
+.table tbody tr:nth-child(odd){
+    background-color: #ccc;
+}
+.table tr{
+    text-transform: uppercase;
+}
+.table thead{
+    font-weight: bold;
+}
